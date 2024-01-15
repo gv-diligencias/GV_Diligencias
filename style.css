@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #020202;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(45deg, #daa520, #fccc52);
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #daa520;
+}
+
+.servicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servico {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+.servico img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servico h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+#comarcas {
+    color: #fff;
+    padding: 50px 0;
+}
+
+#comarcas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comarcas-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comarca {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.comarca:hover {
+    transform: scale(1.05);
+}
+
+.comarca img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comarca h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-info p {
+    margin: 10px 0;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label,
+form textarea,
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(45deg, #daa520, #fccc52);
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(45deg, #daa520, #fccc52);
+}
+
+a {
+    color: #4e54c8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(45deg, #daa520, #fccc52);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
